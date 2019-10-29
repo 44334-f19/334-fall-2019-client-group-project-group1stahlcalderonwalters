@@ -34,6 +34,7 @@ nav ul {
     list-style-type: none; 
 }
 
+
 .mapouter {float:right;
     padding-right: 7px;}
             
@@ -43,11 +44,27 @@ nav ul {
             padding-top: 20px;
             padding-right:500px;}           
 
+
+nav a { 
+    text-decoration: none;
+}
+nav a:link { 
+    color: #FFFFFF; 
+}
+nav a:visited { 
+    color: #FFFFFF; 
+}
+nav a:hover { 
+    color: #000000; 
+}
+.mapouter {
+    float:right;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -58,8 +75,6 @@ nav ul {
     z-index: 2;
     font-size: 15px;
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
