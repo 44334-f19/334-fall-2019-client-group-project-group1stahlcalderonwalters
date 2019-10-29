@@ -33,16 +33,11 @@ nav li {
 nav ul {
     list-style-type: none; 
 }
-
-.mapouter {float:right;
-            
-            
-
+.mapouter {float:right;}
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -53,8 +48,6 @@ nav ul {
     z-index: 2;
     font-size: 15px;
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
