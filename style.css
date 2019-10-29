@@ -33,6 +33,10 @@ nav li {
 nav ul {
     list-style-type: none; 
 }
+nav a { text-decoration: none;}
+nav a:link { color: #FFFFFF; }
+nav a:visited { color: #FFFFFF; }
+nav a:hover { color: #000000; }
 .mapouter {float:right;}
 .dropdown {
     position: relative;
