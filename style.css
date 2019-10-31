@@ -3,6 +3,10 @@
     grid-template-columns: 200px auto;
     grid-template-rows: 150px auto 25px;
 }
+#about{
+    padding-left: 2em; 
+    padding-right: 2em; 
+}
 header, nav {
     background-color: #89a5ea;
 }
