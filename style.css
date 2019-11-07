@@ -1,9 +1,17 @@
 #wrapper {
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 175px auto;
     grid-template-rows: 150px auto 25px;
     height: 100%;
     margin: 0%;
+}
+#about{
+    padding-left: 2.5em; 
+    padding-right: 2.5em; 
+    font-size: 1.05em;
+}
+#homepic{
+    padding: 1em;
 }
 header, nav {
     background-color: #89a5ea;
@@ -82,6 +90,15 @@ nav a:visited {
 nav a:hover { 
     color: #000000; 
 }
+footer a:link { 
+    color: #000000; 
+}
+footer a:visited { 
+    color: #000000; 
+}
+footer a:hover { 
+    color: #FFFFFF; 
+}
 .mapouter {
     float:right;
 }
@@ -95,7 +112,7 @@ nav a:hover {
     position: absolute;
     background-color: #89a5ea;
     min-width: 150px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgb(0,0,0.2);
     padding: 10px 12px;
     z-index: 2;
     font-size: 15px;
