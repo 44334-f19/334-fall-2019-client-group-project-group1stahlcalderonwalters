@@ -17,6 +17,12 @@ nav {
     grid-row: 2/3;
     grid-column: 1/2;
     height: 100vh;
+    border: 8px double #0013a3;
+    border-style: double double solid solid;
+    font-family: gabrielle;
+    font-size: 2em;
+    letter-spacing: 2px;
+    line-height: 65px;
 }
 main {
     text-align: center;
@@ -38,8 +44,14 @@ nav li {
 nav ul {
     list-style-type: none; 
 }
+nav ul li {
+        line-height: 60px;
+}
+
 body {height: 100%;
     margin: 0%;}
+
+            
 
 .mapouter {float:right;
     padding:5px 5px 5px 5px;
@@ -53,7 +65,10 @@ body {height: 100%;
             display:inline-block;
             width: calc(100% - 500px);
             float: left;}           
-
+@font-face {
+  font-family: gabrielle;
+  src: url(gabrielle.ttf);
+}
 
 nav a { 
     text-decoration: none;
@@ -84,6 +99,7 @@ nav a:hover {
     padding: 10px 12px;
     z-index: 2;
     font-size: 15px;
+    
 }
 .dropdown:hover .dropdown-content {
     display: block;
