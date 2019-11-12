@@ -25,12 +25,12 @@ nav {
     grid-row: 2/3;
     grid-column: 1/2;
     height: 100vh;
-    border: 8px double #0013a3;
+    border: 7px double #0013a3;
     border-style: double double solid solid;
     font-family: gabrielle;
     font-size: 2em;
     letter-spacing: 2px;
-    line-height: 65px;
+    line-height: 75px;
     justify-content: center;
 }
 main {
