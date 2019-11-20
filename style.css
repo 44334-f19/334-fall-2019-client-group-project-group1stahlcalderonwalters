@@ -145,7 +145,7 @@ footer a:hover {
     height: 100%;
         margin: 0%;}
     
-    .mapouter { align-content: inline-block;
+    .mapouter { 
                 position: relative;
                 display: none;}
     .contactbody {text-align: center;
